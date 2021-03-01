@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/Javohir1649/bookings/pkg/config"
+	"github.com/Javohir1649/bookings/pkg/handlers"
 	"net/http"
-	"project/pkg/config"
-	"project/pkg/handlers"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"

@@ -3,12 +3,12 @@ package render
 import (
 	"bytes"
 	"fmt"
+	"github.com/Javohir1649/bookings/pkg/config"
+	"github.com/Javohir1649/bookings/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
-	"project/pkg/config"
-	"project/pkg/models"
 )
 
 var functions = template.FuncMap{}

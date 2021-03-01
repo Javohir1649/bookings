@@ -1,10 +1,10 @@
 package handlers
 
 import (
+	"github.com/Javohir1649/bookings/pkg/config"
+	"github.com/Javohir1649/bookings/pkg/models"
+	"github.com/Javohir1649/bookings/pkg/render"
 	"net/http"
-	"project/pkg/config"
-	"project/pkg/models"
-	"project/pkg/render"
 )
 
 // Repo the repository used var
