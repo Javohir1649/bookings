@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Javohir1649/bookings/pkg/config"
-	"github.com/Javohir1649/bookings/pkg/models"
-	"github.com/Javohir1649/bookings/pkg/render"
+	"github.com/Javohir1649/bookings/internal/config"
+	"github.com/Javohir1649/bookings/internal/models"
+	"github.com/Javohir1649/bookings/internal/render"
 )
 
 // Repo the repository used var
