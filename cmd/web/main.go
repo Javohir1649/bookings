@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/Javohir1649/bookings/pkg/config"
-	"github.com/Javohir1649/bookings/pkg/handlers"
-	"github.com/Javohir1649/bookings/pkg/render"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/Javohir1649/bookings/pkg/config"
+	"github.com/Javohir1649/bookings/pkg/handlers"
+	"github.com/Javohir1649/bookings/pkg/render"
 
 	"github.com/alexedwards/scs/v2"
 )
