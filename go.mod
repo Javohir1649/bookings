@@ -1,9 +1,11 @@
-module github.com/Javohir1649/bookings
-
 go 1.15
 
 require (
+	github.com/Javohir1649/bookings v0.0.0-20210314175541-7953d2b1b97a
 	github.com/alexedwards/scs/v2 v2.4.0
+	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/go-chi/chi v1.5.4
 	github.com/justinas/nosurf v1.1.1
 )
+
+module project
